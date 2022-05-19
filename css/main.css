@@ -1,0 +1,32 @@
+body{ 
+    height: 100vh;
+    background-image: url(../images/bg1.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+ }
+ .parent input{
+    background: none;   
+    text-align: center; 
+    border: 2px solid #3498db; 
+    outline: none;
+    color: antiquewhite; 
+    border-radius: 22px;
+    transition: all 0.25s;
+ }
+ .parent input:focus{
+    padding: 0 20px;
+    border-color: #DC3545;
+ }
+ .btn:hover{
+     border-radius: 10px;
+ }
